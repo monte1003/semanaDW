@@ -1,0 +1,67 @@
+body{
+    background-color: #ffffff;
+    font-family: Lucida Sans;
+    margin: 0 100px 0 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+}
+ul li:hover{
+    cursor: pointer;
+    color:#5f9ea0;
+}
+h1{
+    font-size: 1.7pc;
+    display: flex;
+}
+h1  div{
+    color:#5f9ea0;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+picture img{
+    width: 600px;
+}
+h2{
+    font-size: 1.4pc;
+    display: flex;
+}
+#contacto{
+    background-color: #5f9ea0;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    margin: 10px 0 0 0 ;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;    
+}
+#contacto:hover{
+    opacity: 0.9;
+}
+#conoce{
+    background-color:#ffffff;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    margin: 10px 0 0 0 ;
+    cursor: pointer;
+}
