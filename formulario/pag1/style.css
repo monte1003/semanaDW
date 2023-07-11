@@ -40,16 +40,11 @@ h2{
 }
 #contacto{
     background-color: #5f9ea0;
-    border: none;
-    border-radius: 10px;
-    width: auto;
-    height: 40px;
-    width: 120px;
-    font-size: 15px;
-    margin: 10px 0 0 0 ;
-    cursor: pointer;
+    padding: 10px 15px 10px 15px;
     text-decoration: none;
-    color:black;    
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
 }
 #contacto:hover{
     opacity: 0.9;
