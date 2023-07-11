@@ -1,0 +1,22 @@
+body{
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    m
+    margin:0;
+    height: 40px;
+    font-family: 'Sans-serif';
+}
+header:hover{
+    background-color: #252525;
+}
+header nav ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0 30px 0 0;
+}
