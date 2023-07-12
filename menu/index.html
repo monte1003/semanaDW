@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Menu Desplegable</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Nike</li>
-                <li>Products</li>
+        <nav class="menu">
+            <ul class="menu-horizontal">
+                <li><a href="#">Home</a>
+                    <ul class="menu-vertical">
+                        <li>Hero</li>
+                        <li>Main</li>
+                        <li>Footer</li>
+                    </ul>
+                </li>
+                <li><a href="#">Nike</a>
+                    <ul class="menu-vertical">
+                        <li>Shops</li>
+                        <li>Ubication</li>
+                    </ul>
+                </li>
+                <li><a href="#">Products</a>
+                    <ul class="menu-vertical">
+                        <li>AF1</li>
+                        <li>Jordans</li>
+                        <li>T-Shirts</li>
+                        <li>Hoddies</li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="container-text">
-            <h1></h1>
+            <h2>AIR FORCE ONE</h2>
+            <p>Just One Time For <span class="amarillo">Win</span>,</p>
+            <p>Just One Time to <span class="amarillo">Bought</span>.</p>
+        </div>
+        <div class="container-img">
+            <img src="./img/shoes.png" alt="">
         </div>
     </main>
 </body>
